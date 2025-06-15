@@ -61,7 +61,8 @@ style: |
   .two-column {
     display: flex;
     gap: 40px;
-    align-items: flex-start;
+    align-items: center;
+    min-height: 400px;
   }
   .column-left {
     flex: 1;
@@ -69,6 +70,15 @@ style: |
   .column-right {
     flex: 1;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .column-right p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #666;
   }
   .column-right img {
     max-height: 350px;

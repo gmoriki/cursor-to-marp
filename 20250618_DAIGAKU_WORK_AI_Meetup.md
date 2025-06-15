@@ -31,7 +31,7 @@ style: |
   }
   /* 表紙の見出しとサブタイトルは中央配置 */
   section.cover h1 {
-    font-size: 80px;
+    font-size: **80px**;
     text-align: center;
     position: static;
     margin-top: 0;
@@ -61,7 +61,8 @@ style: |
   .two-column {
     display: flex;
     gap: 40px;
-    align-items: flex-start;
+    align-items: center;
+    min-height: 400px;
   }
   .column-left {
     flex: 1;
@@ -69,6 +70,15 @@ style: |
   .column-right {
     flex: 1;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .column-right p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #666;
   }
   .column-right img {
     max-height: 350px;
@@ -79,6 +89,27 @@ style: |
 <!-- _class: cover -->
 # DAIGAKU WORK AI Meetup
 **2025.06.18 大学業務×生成AI活用**
+
+---
+
+<!-- _class: two-column -->
+# 自己紹介　(森木銀河)
+
+<div class="two-column">
+<div class="column-left">
+
+元大学職員。2023年以降は大学組織における生成AI活用の第一人者として急速に頭角を現し、全国の大学等で講演、研修、コンサルティングを精力的に行う。
+
+「AIとヒトをつなぐ」をミッションに掲げ、大学職員の能力開発を支援する「プロンプトガイドP4Us」や内省支援AIエージェント等のツール開発も手掛ける。
+
+</div>
+<div class="column-right">
+
+<img src="./.images/image.png" alt="代表者写真">
+<p>@pogohopper8</p>
+
+</div>
+</div>
 
 ---
 
